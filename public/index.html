@@ -1,0 +1,25 @@
+<!DOCTYPE = html>
+<html>
+<head>
+    <h1>Server implications</h1>
+</head>
+<body>
+    <p1>Form</p1>
+    <form action="/signup" method="post">
+        <div>
+            <label>Username:</label>
+            <input type="text" name="username"/><br/>
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password"/><br/>
+        </div>
+        <div><input type="submit" value ="Sign Up"/></div>
+    </form>
+    <form action="/users" method="get">
+            <button type="submit" name="Submit" value ="Goto users">List of Users</button>
+    </form>
+
+    <script src="client.js"></script>
+</body>
+</html>
